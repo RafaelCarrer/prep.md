@@ -2,11 +2,11 @@
 
 > **Project memory for any AI. Prep your project once; any AI picks up exactly where you left off.**
 
-🇧🇷 [Leia em Português](README.pt-BR.md)
-
 ![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green)
 ![Works with](https://img.shields.io/badge/works%20with-ChatGPT%20·%20Claude%20·%20Gemini-blue)
-![Standard](https://img.shields.io/badge/PREP-v0.1-orange)
+![Standard](https://img.shields.io/badge/PREP-v0.2-orange)
+
+**Home: [prep.md](https://prep.md)**
 
 ---
 
@@ -41,7 +41,7 @@ files with agreed names. If a folder follows it, any tool can support it.
 
 ## Quick start
 
-1. Copy the PREP prompt: [English](prompt/prep.en.md) · [Português](prompt/prep.pt-BR.md)
+1. Copy the PREP prompt: **[prompt/prep.en.md](prompt/prep.en.md)**
 2. Paste it into a Project's instructions in ChatGPT or Claude (any chat
    with access to your cloud drive).
 3. Say *"save this as a project"*, or *"open my Sourdough project"*, or
@@ -51,8 +51,7 @@ No plugin, no account, no backend. It's text and folders.
 
 ## Read the standard
 
-- **[SPEC.md](SPEC.md)** — the full specification (English)
-- **[SPEC.pt-BR.md](SPEC.pt-BR.md)** — a especificação completa (Português)
+- **[SPEC.md](SPEC.md)** — the full specification
 - **[example/](example/)** — a real project built in the standard, to read
   and copy
 
@@ -73,17 +72,27 @@ No app creation, no accounts, no sync, no rigid schemas, no required YAML.
 PREP standardises **project memory** and nothing more — small enough to
 understand in five minutes. See the [out-of-scope section](SPEC.md#11-out-of-scope-by-design).
 
-## How it relates to MCP
+## How it relates to AGENTS.md and MCP
 
-The Model Context Protocol connects an AI to your **tools**. PREP connects
-an AI to your **project**. They are complementary: MCP is how an AI acts;
-PREP is how a project remembers.
+- **AGENTS.md** tells agents how to work in your *code*. **PREP tells them
+  everything about your *project*** — the goal, the state, the history,
+  the decisions. Different lane: work and life projects, not just
+  codebases.
+- **MCP** connects an AI to your *tools*. **PREP** connects an AI to your
+  *project*. MCP is how an AI acts; PREP is how a project remembers. An
+  optional `TOOLS.md` even lets a project list the MCP servers its agents
+  can use.
 
 ## Part of AMETI
 
 PREP is the foundation of [AMETI](https://ameti.app) — small tools that
 guide you through one job at a time, over the AI models you already use.
 The AMETI OS is built on this standard.
+
+## Contributing
+
+Translations are welcome via pull request. Questions and ideas: open a
+[Discussion](https://github.com/RafaelCarrer/prep.md/discussions).
 
 ## License
 

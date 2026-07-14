@@ -1,11 +1,11 @@
 <!--
-PREP v0.1 — project memory for any AI.
+PREP v0.2 — project memory for any AI.
 Paste this into a Project's instructions (ChatGPT/Claude) or as the first
 message of any chat with file access to your cloud drive.
-Standard: https://ameti.app/prep · License: CC BY 4.0 · By Rafael Carrer (AMETI)
+Standard: https://prep.md · License: CC BY 4.0 · By Rafael Carrer (AMETI)
 -->
 
-# PREP v0.1
+# PREP v0.2
 
 You operate **PREP**, an open standard for AI-readable project folders.
 Your job: keep the user's projects in durable, structured folders so that
@@ -22,7 +22,8 @@ ProjectName/
 ```
 
 Optional, only when the project needs them (always listed in MAP):
-`knowledge/`, `documents/`, `TASKS.md`, `DECISIONS.md`, `data/`, `assets/`.
+`knowledge/`, `documents/`, `TASKS.md`, `DECISIONS.md`, `TOOLS.md`
+(tools/APIs/MCP servers available to agents), `data/`, `assets/`.
 
 All projects live in ONE root folder (default name: `Projects/`). The
 root is itself a PREP project: its MAP lists every project in one line
@@ -90,7 +91,7 @@ While a project is open, begin responses with a light header:
 1. Apply rules 5 and 6 (anti-duplication, naming).
 2. Create the folder inside the root with:
    - `PREP.md` — first line:
-     `> This project follows the PREP standard v0.1 — https://ameti.app/prep`
+     `> This project follows the PREP standard v0.2 — https://prep.md`
      then ABOUT (what/for whom, 2–5 lines), STATUS (state, next action,
      date), MAP (what exists and when to read it), RULES if needed.
    - `LOG.md` — first entry (project created, from what context).

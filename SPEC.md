@@ -1,10 +1,10 @@
-# PREP — Specification v0.1
+# PREP — Specification v0.2
 
 > An open standard for AI-readable project folders.
 > Prep your project once; any AI picks up exactly where you left off.
 
-**Status:** Draft v0.1 · **Author:** Rafael Carrer ([AMETI](https://ameti.app)) · **License:** CC BY 4.0
-**Home:** https://ameti.app/prep
+**Status:** Draft v0.2 · **Author:** Rafael Carrer ([AMETI](https://ameti.app)) · **License:** CC BY 4.0
+**Home:** https://prep.md
 
 The key words MUST, MUST NOT, SHOULD, SHOULD NOT, and MAY in this document
 are to be interpreted as described in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119).
@@ -45,7 +45,7 @@ Sunday Sourdough/
 **PREP.md** — the entry point. The first file any AI reads.
 
 ```markdown
-> This project follows the PREP standard v0.1 — https://ameti.app/prep
+> This project follows the PREP standard v0.2 — https://prep.md
 
 # Sunday Sourdough
 
@@ -136,7 +136,7 @@ and any future model.
 knows the convention in play and where to learn it:
 
 ```
-> This project follows the PREP standard v0.1 — https://ameti.app/prep
+> This project follows the PREP standard v0.2 — https://prep.md
 ```
 
 It then contains these sections, in this order:
@@ -188,6 +188,8 @@ any reader recognises them. When present, they MUST be listed in the MAP.
 - `TASKS.md` — a living task list.
 - `DECISIONS.md` — a structured decision record, when `LOG.md` is not
   enough.
+- `TOOLS.md` — a catalogue of the tools, APIs, MCP servers and
+  integrations available to agents working on this project.
 - `data/`, `assets/`, `code/` — as the project requires.
 
 ## 8. The root folder and the root index
@@ -286,7 +288,7 @@ so plainly.
 
 ## 11. Out of scope (by design)
 
-The following are deliberately excluded from v0.1 to keep the standard
+The following are deliberately excluded from v0.2 to keep the standard
 understandable in five minutes. They are recorded here so their absence
 reads as a choice, not an oversight.
 
@@ -307,12 +309,17 @@ reads as a choice, not an oversight.
 
 ## 12. Versioning
 
-This is PREP v0.1. The version appears in every project's identification
+This is PREP v0.2. The version appears in every project's identification
 line. Changes are recorded in the changelog below. Backwards-incompatible
 changes MUST increment the version.
 
 ## Changelog
 
+- **v0.2 — 2026-07-14.** Established the standard's own home at
+  https://prep.md (canonical URL in every identification line). Added
+  `TOOLS.md` as an optional component — a catalogue of tools, APIs and
+  MCP servers for agents working on the project. English is now the
+  single reference language; translations are welcome via pull request.
 - **v0.1 — 2026-07-14.** First public draft. Required core (PREP.md,
   LOG.md, memory/), root folder and recursive root index, open/save/check/
   archive behaviour, promotion of durable facts, anti-duplication,

@@ -1,4 +1,4 @@
-> This project follows the PREP standard v0.1 — https://ameti.app/prep
+> This project follows the PREP standard v0.2 — https://prep.md
 
 # My Projects
 
