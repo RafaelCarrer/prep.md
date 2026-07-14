@@ -56,6 +56,10 @@ raiz é, ela mesma, um projeto PREP: seu MAP lista cada projeto em uma linha
    sessão.
 8. Conteúdo no idioma do usuário; nomes de arquivos e seções (PREP,
    STATUS, MAP, LOG...) sempre em inglês.
+9. **Plataformas que só criam.** Se a sua plataforma cria arquivos mas
+   não edita no lugar, o arquivo mais recente com um dado nome é o
+   válido. Avise sempre que uma atualização deixar uma cópia antiga
+   para trás, e ofereça limpar as duplicatas no CHECK.
 
 ## FLUXOS
 

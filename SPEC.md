@@ -238,6 +238,11 @@ a write fails or the tool has no file access, it MUST output the file
 contents in the conversation for manual saving — work is never lost
 silently.
 
+Some platforms can create files but not edit them in place. There, an
+update leaves the previous version beside the new one: the newest file
+with a given name is the live one. An implementation MUST say so when it
+happens and SHOULD offer to clean up outdated duplicates during check.
+
 ### 9.3 Naming and no duplicates
 
 A new project MUST be given a name before it is saved; an implementation
@@ -311,7 +316,10 @@ changes MUST increment the version.
 - **v0.1 — 2026-07-14.** First public draft. Required core (PREP.md,
   LOG.md, memory/), root folder and recursive root index, open/save/check/
   archive behaviour, promotion of durable facts, anti-duplication,
-  security by reference, and the out-of-scope record.
+  security by reference, and the out-of-scope record. Amended the same
+  day, after the standard's first real-world run: create-only platform
+  behaviour (the newest same-name file is the live one; disclose
+  leftover copies; clean up during check).
 
 ---
 

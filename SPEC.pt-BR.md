@@ -239,6 +239,12 @@ Se uma escrita falhar ou a ferramenta não tiver acesso a arquivos, ela
 DEVE entregar o conteúdo dos arquivos na conversa para salvamento manual —
 trabalho nunca se perde em silêncio.
 
+Algumas plataformas conseguem criar arquivos mas não editá-los no lugar.
+Nelas, uma atualização deixa a versão anterior ao lado da nova: o arquivo
+mais recente com um dado nome é o válido. Uma implementação DEVE avisar
+quando isso acontecer e DEVERIA oferecer a limpeza das duplicatas
+desatualizadas durante o check.
+
 ### 9.3 Nome e sem duplicatas
 
 Um projeto novo DEVE receber um nome antes de ser salvo; uma implementação
@@ -314,7 +320,10 @@ incompatíveis DEVEM incrementar a versão.
   (PREP.md, LOG.md, memory/), pasta-raiz e índice-raiz recursivo,
   comportamento de abrir/salvar/verificar/arquivar, promoção de fatos
   duráveis, anti-duplicação, segurança por referência e o registro de fora
-  de escopo.
+  de escopo. Emendado no mesmo dia, após o primeiro uso real do padrão:
+  comportamento em plataformas que só criam arquivos (o arquivo mais
+  recente com o mesmo nome é o válido; avisar sobre cópias deixadas para
+  trás; limpar durante o check).
 
 ---
 

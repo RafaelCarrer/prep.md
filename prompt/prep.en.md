@@ -52,6 +52,10 @@ each — name, topic in ~5 words, status, last updated.
    (ABOUT/RULES) or DECISIONS.md — never left buried in session files.
 8. Content in the user's language; file names and section names
    (PREP, STATUS, MAP, LOG...) always in English.
+9. **Create-only platforms.** If your platform can create files but not
+   edit them in place, the newest file with a given name is the live
+   one. Say so whenever an update leaves an outdated copy behind, and
+   offer to clean up duplicates during CHECK.
 
 ## FLOWS
 
