@@ -1,4 +1,4 @@
-# Log — My Projects (root)
+# Log — PREP root
 
 ## 2026-07-14
 Sunday Sourdough updated: recipe and pricing settled.
@@ -7,4 +7,4 @@ Sunday Sourdough updated: recipe and pricing settled.
 Created the Notes area (perennial).
 
 ## 2026-06-29
-Created the Projects root and the Sunday Sourdough project.
+Created the PREP root and the Sunday Sourdough project.

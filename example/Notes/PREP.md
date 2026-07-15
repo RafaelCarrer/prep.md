@@ -1,4 +1,4 @@
-> This project follows the PREP standard v0.2 — https://prep.md
+> This project follows the PREP standard v0.3 — https://prep.md
 
 # Notes
 

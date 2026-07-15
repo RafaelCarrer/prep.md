@@ -1,6 +1,6 @@
-> This project follows the PREP standard v0.2 — https://prep.md
+> This project follows the PREP standard v0.3 — https://prep.md
 
-# My Projects
+# PREP root
 
 ## ABOUT
 This is the root folder for all of Rafael's PREP projects. It is itself a

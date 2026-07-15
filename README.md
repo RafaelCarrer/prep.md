@@ -1,10 +1,11 @@
 # PREP.md
 
-> **Project memory for any AI. Prep your project once; any AI picks up exactly where you left off.**
+> **Prepare once. Continue anywhere.**
+> Project memory for any AI — prepare a folder once, and any AI picks up exactly where you left off.
 
 ![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green)
 ![Works with](https://img.shields.io/badge/works%20with-ChatGPT%20·%20Claude%20·%20Gemini-blue)
-![Standard](https://img.shields.io/badge/PREP-v0.2-orange)
+![Standard](https://img.shields.io/badge/PREP-v0.3-orange)
 
 **Home: [prep.md](https://prep.md)**
 
@@ -41,13 +42,30 @@ files with agreed names. If a folder follows it, any tool can support it.
 
 ## Quick start
 
+The easiest way is the [starter folder](https://prep.md): download it,
+drop it into your cloud drive, and tell your AI *"read my PREP folder"*.
+
+By hand:
+
 1. Copy the PREP prompt: **[prompt/prep.en.md](prompt/prep.en.md)**
 2. Paste it into a Project's instructions in ChatGPT or Claude (any chat
    with access to your cloud drive).
-3. Say *"save this as a project"*, or *"open my Sourdough project"*, or
-   just *"what do I have?"* — and type from there.
+3. Talk normally. When you want the work kept, type `prep save`.
 
 No plugin, no account, no backend. It's text and folders.
+
+## Commands
+
+```
+prep save             save this conversation into the current project
+prep open <name>      open a project and continue where it left off
+prep list             list every project in the root
+prep new <name>       start a new project deliberately
+prep check            verify the folder against its MAP
+prep archive <name>   move a finished project into archive/
+```
+
+PREP never nags you to save — you converse freely and save when you want.
 
 ## Read the standard
 
