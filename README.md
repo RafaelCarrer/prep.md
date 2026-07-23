@@ -56,13 +56,12 @@ That open instruction is the standard's one required piece of user-facing
 syntax. No plugin, no account with us, no backend — it's text and folders
 in your own drive.
 
-By hand: download the [starter folder](https://prep.md), drop it into your
-cloud drive, and you're set. Prefer to run PREP inside a chat that can
-write files? Paste **[prompt/prep.en.md](prompt/prep.en.md)** into a
-Project's instructions in ChatGPT or Claude — an optional, prompt-based
-way to drive the same flows with a small `prep …` command set.
-
 PREP never nags you to save — you converse freely and save when you want.
+
+Want to build on it? The folder is the whole contract — read the
+[specification](SPEC.md) and the [example](example/) project, and you can
+write your own implementation. (`prompt/` holds an experimental prompt-only
+setup for chats that can write files; PREP Save is the path we recommend.)
 
 ## Read the standard
 
