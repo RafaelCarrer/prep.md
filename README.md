@@ -48,7 +48,7 @@ Save, and it writes a verified snapshot into a project folder in your own
 Google Drive. To pick the project back up later, tell any AI:
 
 ```
-In your Google Drive, open the «project» folder inside PREP
+In my Google Drive, open the «project» folder inside PREP
 and read PREP.md.
 ```
 
@@ -76,7 +76,7 @@ setup for chats that can write files; PREP Save is the path we recommend.)
 | **The memory is the project** | Switch models or devices freely; your work outlives any single AI. |
 | **Boot light** | The `MAP` says what to read and when, so an AI never scans the whole folder — fast, even years in. |
 | **Append-only log** | History is never rewritten; you can always see how a decision was made. |
-| **Verify before "saved"** | An AI never claims it saved when it didn't. If it can't write, it hands you the text to save yourself. |
+| **Verify before "saved"** | A save counts only once the file is written and read back — you're never told it saved when it wasn't. |
 | **One root, recursive index** | All projects live in one folder whose catalogue is itself a PREP project. Find anything by name, by listing, or by topic. |
 | **Secrets by reference** | PREP never stores passwords — only *where* they live. Plain text read into a chat is no place for a secret. |
 
