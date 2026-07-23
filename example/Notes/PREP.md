@@ -11,7 +11,7 @@ that grows over time, not only something with a goal.
 Updated: 2026-07-13
 State: Ongoing. Newest notes are at the top of LOG.md.
 Next action: None — add notes as they come up.
-Last session: (notes are captured directly in LOG.md)
+Latest: (notes are captured directly in LOG.md)
 
 ## MAP
 - LOG.md — the notes themselves, newest entries dated at the top.

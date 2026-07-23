@@ -12,7 +12,7 @@ job.
 Updated: 2026-07-14
 State: Recipe is stable on a 24h cold ferment. Pricing decided at £5/loaf.
 Next action: Message the WhatsApp list with the standing-order offer.
-Last session: memory/2026-07-14-session.md
+Latest: memory/2026-07-14-session.md
 
 ## MAP
 - LOG.md — dated history; read for how we got here.

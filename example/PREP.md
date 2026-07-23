@@ -11,7 +11,7 @@ this first to find a project by name, by listing, or by topic.
 Updated: 2026-07-14
 State: Two active items.
 Next action: Nothing at the root level; work happens inside each project.
-Last session: (root has no work sessions of its own)
+Latest: (root has no work sessions of its own)
 
 ## MAP
 Each line is one project: name — topic — status — last updated.

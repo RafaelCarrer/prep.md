@@ -42,28 +42,25 @@ files with agreed names. If a folder follows it, any tool can support it.
 
 ## Quick start
 
-The easiest way is the [starter folder](https://prep.md): download it,
-drop it into your cloud drive, and tell your AI *"read my PREP folder"*.
-
-By hand:
-
-1. Copy the PREP prompt: **[prompt/prep.en.md](prompt/prep.en.md)**
-2. Paste it into a Project's instructions in ChatGPT or Claude (any chat
-   with access to your cloud drive).
-3. Talk normally. When you want the work kept, type `prep save`.
-
-No plugin, no account, no backend. It's text and folders.
-
-## Commands
+The easiest way is **[PREP Save](https://save.prep.md)** — the reference
+implementation. Work in any AI, paste the conversation's summary into PREP
+Save, and it writes a verified snapshot into a project folder in your own
+Google Drive. To pick the project back up later, tell any AI:
 
 ```
-prep save             save this conversation into the current project
-prep open <name>      open a project and continue where it left off
-prep list             list every project in the root
-prep new <name>       start a new project deliberately
-prep check            verify the folder against its MAP
-prep archive <name>   move a finished project into archive/
+In your Google Drive, open the «project» folder inside PREP
+and read PREP.md to continue.
 ```
+
+That open instruction is the standard's one required piece of user-facing
+syntax. No plugin, no account with us, no backend — it's text and folders
+in your own drive.
+
+By hand: download the [starter folder](https://prep.md), drop it into your
+cloud drive, and you're set. Prefer to run PREP inside a chat that can
+write files? Paste **[prompt/prep.en.md](prompt/prep.en.md)** into a
+Project's instructions in ChatGPT or Claude — an optional, prompt-based
+way to drive the same flows with a small `prep …` command set.
 
 PREP never nags you to save — you converse freely and save when you want.
 
@@ -86,9 +83,12 @@ PREP never nags you to save — you converse freely and save when you want.
 
 ## What it is not (by design)
 
-No app creation, no accounts, no sync, no rigid schemas, no required YAML.
-PREP standardises **project memory** and nothing more — small enough to
-understand in five minutes. See the [out-of-scope section](SPEC.md#11-out-of-scope-by-design).
+No accounts, no sync, no rigid schemas, no required YAML. PREP standardises
+**project memory** and nothing more — small enough to understand in five
+minutes. Tools are built *on* the standard, not baked into it:
+[PREP Save](https://save.prep.md) is the reference implementation, and the
+folder is the contract for any other. See the
+[out-of-scope section](SPEC.md#11-out-of-scope-by-design).
 
 ## How it relates to AGENTS.md and MCP
 
