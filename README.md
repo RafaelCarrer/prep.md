@@ -49,7 +49,7 @@ Google Drive. To pick the project back up later, tell any AI:
 
 ```
 In your Google Drive, open the «project» folder inside PREP
-and read PREP.md to continue.
+and read PREP.md.
 ```
 
 That open instruction is the standard's one required piece of user-facing
